@@ -9,6 +9,15 @@ from helperfun import *
 from helperfun import INTERVAL
 from datetime import datetime
 
+"""
+
+Hetrogeneous Devices
+
+This python file is created to run in MPI platforms. The core scripts are the same as QCloudSim - IBM - Machines.ipynb. The code demonstrates an example of QCloudSim with heterogeneous quantum devices, mimicking some of the IBM quantum devices. The setup includes a broker, a job generator, and a QCloud. A broker is responsible for assigning incoming jobs to resources using random assignment scheduling algorithms and rotational scheduling algorithms. Maintenance and calibration are integrated into this setup to mimic the synthetic quantum cloud. The runtime of the simulation is limited by ```SIM_TIME```. 
+
+"""
+
+
 class QCloud(object):
 
     """

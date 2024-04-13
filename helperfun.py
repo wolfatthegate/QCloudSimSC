@@ -25,6 +25,9 @@ def estimate_time(qjob: QJob, device_name: str, CLOPS: int) -> float:
         And Its Implications for Quantum Kernels At Practical Data Set Sizes. 
         https://arxiv.org/pdf/2307.04980.pdf
         
+        TO DO: we don't use device_name any where in this function. We can take it of. 
+        NOTE: make sure all the scripts that use estimate_time is not passing that argument.
+        
      """
     
     ALPHA_1 = 0.02 # some scaling parameter
