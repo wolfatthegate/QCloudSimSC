@@ -33,7 +33,7 @@ For a single process, one can simply run the scripts from top to bottom in <b>ju
 ```% python3 SC2024.py```. 
 
 For multiple processes, one can use the following MPI command:  <br>
-```mpiexec -n \[number_of_processes\] python -m mpi4py \[python_file_name\]``` <br>
+```mpiexec -n [number_of_processes] python -m mpi4py [python_file_name]``` <br>
 The number of processes declared must be smaller than available cores in a CPU. For example, if a CPU has 16 cores, one can initiate processes up to 16. <br>
 ```mpiexec -n 16 python -m mpi4py SC2024.py```  <br>
 
