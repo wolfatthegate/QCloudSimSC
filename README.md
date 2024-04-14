@@ -34,9 +34,10 @@ For a single process, one can simply run the scripts from top to bottom in <b>ju
 
 For multiple processes, one can use the following MPI command:  <br>
 ```mpiexec -n [number_of_processes] python -m mpi4py [python_file_name]``` <br>
+<br>
 The number of processes declared must be smaller than available cores in a CPU. For example, if a CPU has 16 cores, one can initiate processes up to 16. <br>
 ```mpiexec -n 16 python -m mpi4py SC2024.py```  <br>
 
 
-References: 
-[1] SimPy, “Discrete event simulation for python,” 2024, [https://simpy.readthedocs.io/en/latest/index.html]
+References: <br>
+[1] SimPy, “Discrete event simulation for python,” 2024, [https://simpy.readthedocs.io/en/latest/index.html] <br>
