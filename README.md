@@ -1,6 +1,6 @@
 # Project Name
 
-Brief description of your project.
+QCloudSim is a novel simulation framework created to simulate scalable quantum cloud environments. QCloudSim utilizes SimPy [1], a process-based discrete-event simulation framework written in standard Python. The QCloudSim framework offers a system-level simulation environment featuring service brokers, maintenance, scheduling policies, scalable resources for quantum tasks, multi-processing threads, and customizable user configuration models.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ Brief description of your project.
 
 ## Installation
 
-The project can be cloned or downloaded. The required python packages for this project are ```simpy, numpy, matplot, mpi4py``` etc. One way to install the required package is via pip commands as shown: 
+The project can be cloned or downloaded directly to the designated machine. The required python packages for this project are ```simpy, numpy, matplot, mpi4py``` etc. One way to install the required package is via pip commands as shown: 
 
 ```% pip install simpy``` <br>
 ```% pip install numpy```<br>
@@ -36,3 +36,7 @@ For multiple processes, one can use the following MPI command:  <br>
 ```mpiexec -n \[number_of_processes\] python -m mpi4py \[python_file_name\]``` <br>
 The number of processes declared must be smaller than available cores in a CPU. For example, if a CPU has 16 cores, one can initiate processes up to 16. <br>
 ```mpiexec -n 16 python -m mpi4py SC2024.py```  <br>
+
+
+References: 
+[1] SimPy, “Discrete event simulation for python,” 2024, [https://simpy.readthedocs.io/en/latest/index.html]
