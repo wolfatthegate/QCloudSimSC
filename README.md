@@ -1,4 +1,4 @@
-# Project Name
+# QCloudSim for SC2024
 
 QCloudSim is a novel simulation framework created to simulate scalable quantum cloud environments. QCloudSim utilizes SimPy [1], a process-based discrete-event simulation framework written in standard Python. The QCloudSim framework offers a system-level simulation environment featuring service brokers, maintenance, scheduling policies, scalable resources for quantum tasks, multi-processing threads, and customizable user configuration models.
 
@@ -6,8 +6,6 @@ QCloudSim is a novel simulation framework created to simulate scalable quantum c
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
