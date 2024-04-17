@@ -14,7 +14,7 @@ The project can be cloned or downloaded directly to the designated machine. The 
 ```% pip install simpy``` <br>
 ```% pip install numpy```<br>
 ```% pip install matplot```<br>
-```% pip install mpi4py```<br>
+```conda install conda-forge::mpi4py```<br>
 
 ## Usage
 
