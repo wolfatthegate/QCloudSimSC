@@ -36,7 +36,7 @@ def setup(env, num_machines, joblogger, JOB_LIMIT, PrintLog):
 machine_name = socket.gethostname()
 PrintLog = False # Detail Logs
 NUM_OF_MACHINE = 5
-JOB_LIMIT = 50000
+JOB_LIMIT = 500
 MESSAGE = ''
 # Preparing data structures for simulation results
 
